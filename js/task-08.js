@@ -9,7 +9,7 @@ function handleSubmit(e) {
     } = e.currentTarget
 
     if (email.value === '' || password.value === '') {
-        return alert('Поля обовязкові для заповнення!')
+        return alert('Всі поля мають бути заповнені!')
     }
     const userDetails = { email: email.value, Password: password.value }
     
