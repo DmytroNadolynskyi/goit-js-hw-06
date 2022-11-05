@@ -20,9 +20,9 @@ const ingredients = [
 
 
 const listEl = document.querySelector('#ingredients');
-ingredients.map(elem => {
+ingredients.map(e => {
   const itemEl = document.createElement('li');
   itemEl.classList.add('item');
-  itemEl.textContent = elem;
+  itemEl.textContent = e;
   listEl.append(itemEl);
 });
